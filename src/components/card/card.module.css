@@ -1,0 +1,62 @@
+.card {
+    flex: 0 0 auto;
+    position: relative;
+    margin: 3vw;
+    height: 45vh;
+    width: 40vw;
+    background: transparent;
+    border-radius: 2%;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.1607843137254902 );
+    fill-rule: evenodd;
+}
+h4{
+    left: 7%;
+    bottom: 25%;
+    color: #ff4444;
+    font-size: 1.7em;
+    position: absolute;
+
+}
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    height:20%;
+    width: 100%;
+    left: 7%;
+    bottom: 0;
+    position: absolute;
+}
+.infos{
+    height: auto;
+    width: auto;
+    color: #707070;
+    font-size: .8em;
+    font-weight: bold;
+    position: relative;
+    margin-right: 2%;
+
+}
+.button{
+    position: absolute;
+    margin-right: 30px;
+    color: #707070;
+    font-size: 1em;
+    font-weight: bold;
+    right : 7%;
+    height: auto;
+    width: auto;
+    border-bottom: 2px solid #707070 ;
+    padding-bottom: 3px;
+}
+.icon{
+    margin-left:10px;
+}
+.vl {
+    height: 80vh;
+    width: 1%;
+    position: absolute;
+    justify-content: center;
+    background-color: #707070;
+}
